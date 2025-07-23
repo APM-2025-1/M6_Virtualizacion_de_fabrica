@@ -53,7 +53,7 @@ Cada una de las 7 bandas transportadoras fue equipada con dos sensores que detec
 > Planta detallada creada en NX MCD con todos los componentes visibles.
 
 <div align="center">
-    <img src="Assets/PlantaSimplificada.jpg" alt="Vista de la planta simplificada" width="600px">
+    <img src="Assets/PlantaSimplificada.png" alt="Vista de la planta simplificada" width="600px">
 </div>
 
 > Planta optimizada para simulaciones funcionales. Esta versión fue la usada durante las pruebas con señales reales.
@@ -85,7 +85,7 @@ El adaptador tomó valores enteros y los uitlizo en condiciones logicas para cam
 
 ## 6. Referencia Audiovisual
 
-En el video del proyecto se puede encontrar con más detalle la configuración de las señales y la forma de comunicación. Para ver específicamente esa parte, haz clic [aquí](https://www.youtube.com/watch?v=XXXXXXXXXXX).
+En el video del proyecto se puede encontrar con más detalle la configuración de las señales y la forma de comunicación. Para ver específicamente esa parte, haz clic [aquí](https://youtu.be/DL603HhqcK8?si=gI0ztW8eIOSXl2jA&t=2001).
 
 
 
