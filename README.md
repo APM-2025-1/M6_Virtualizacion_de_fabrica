@@ -29,15 +29,22 @@
     <summary>🗂️ Tabla de Contenido</summary>
 
 <!-- TOC -->
-- [](#)
+- [1. 📄 Documentación del Proceso de Virtualización con NX Mechatronics Concept Designer](#1--documentación-del-proceso-de-virtualización-con-nx-mechatronics-concept-designer)
+  - [1.1. ✍🏻🏭🖥️ Diseño de la Planta Virtual](#11-️-diseño-de-la-planta-virtual)
+  - [1.2. 📄🖥️ Descripción General del Sistema Virtualizado](#12-️-descripción-general-del-sistema-virtualizado)
+  - [1.3. 🏗️ Propiedades Físicas](#13-️-propiedades-físicas)
+  - [1.4. 📡🦾 Sensores y Actuadores](#14--sensores-y-actuadores)
+  - [1.5. 🎛️⚙️ Adaptador de Señales y Configuración de Simulación](#15-️️-adaptador-de-señales-y-configuración-de-simulación)
+  - [1.6. 🏙️ Referencia Audiovisual](#16-️-referencia-audiovisual)
+
 
 
 
 </details>
 
-# Documentación del Proceso de Virtualización con NX Mechatronics Concept Designer
+# 1. 📄 Documentación del Proceso de Virtualización con NX Mechatronics Concept Designer
 
-## 1. Diseño de la Planta Virtual
+## 1.1. ✍🏻🏭🖥️ Diseño de la Planta Virtual
 
 Para la virtualización del sistema se usó el entorno de modelado de **NX Mechatronics Concept Designer**, donde se diseñaron dos versiones del sistema:
 
@@ -53,22 +60,22 @@ Cada una de las 7 bandas transportadoras fue equipada con dos sensores que detec
 > Planta detallada creada en NX MCD con todos los componentes visibles.
 
 <div align="center">
-    <img src="Assets/PlantaSimplificada.png" alt="Vista de la planta simplificada" width="600px">
+    <img src="https://imgur.com/BTTUadA.png" alt="Vista de la planta simplificada" width="600px">
 </div>
 
 > Planta optimizada para simulaciones funcionales. Esta versión fue la usada durante las pruebas con señales reales.
 
-## 2. Descripción General del Sistema Virtualizado
+## 1.2. 📄🖥️ Descripción General del Sistema Virtualizado
 
 El sistema virtualizado representa una línea de producción automatizada para el ensamblaje y control de calidad de **patinetas**. Está compuesto por siete bandas transportadoras (`Banda1` a `Banda7`) que trasladan componentes y productos terminados a lo largo de la celda. Se incluyen estaciones de ensamblaje (`PatinetaAsm`), control de calidad (`PatinetaCalidad`) y empaquetado (`PatinetaEmpaquetado`).
 
 Los elementos están organizados jerárquicamente en el entorno de física básica de NX MCD, permitiendo una simulación realista de movimiento, interacción de cuerpos y secuencia operativa.
 
-## 3. Propiedades Físicas
+## 1.3. 🏗️ Propiedades Físicas
 
 * Aplicación de cuerpos rígidos y de colision para componentes de patinetas y las bandas.
 
-## 4. Sensores y Actuadores
+## 1.4. 📡🦾 Sensores y Actuadores
 
 Cada banda (`Banda1` a `Banda7`) cuenta con sensores de activación y paro:
 
@@ -77,15 +84,21 @@ Cada banda (`Banda1` a `Banda7`) cuenta con sensores de activación y paro:
 
 Estas señales están asociadas a condiciones de proceso definidas por sensores virtuales dentro del entorno de NX MCD.
 
-## 5. Adaptador de Señales y Configuración de Simulación
+## 1.5. 🎛️⚙️ Adaptador de Señales y Configuración de Simulación
 
 Para lograr la conexión entre la lógica interna del sistema virtualizado y las señales externas, se utilizó un adaptador de señales. Este componente permite asociar señales virtuales con variables accesibles desde sistemas externos.
 
 El adaptador tomó valores enteros y los uitlizo en condiciones logicas para cambiar los valores de los parametros booleanos.
 
-## 6. Referencia Audiovisual
+## 1.6. 🏙️ Referencia Audiovisual
 
-En el video del proyecto se puede encontrar con más detalle la configuración de las señales y la forma de comunicación. Para ver específicamente esa parte, haz clic [aquí](https://youtu.be/DL603HhqcK8?si=gI0ztW8eIOSXl2jA&t=2001).
+En el video del proyecto se puede encontrar con más detalle la configuración de las señales y la forma de comunicación. Para ver específicamente esa parte, haz clic en la imagen.
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=DL603HhqcK8&t=2001s">
+    <img src="https://img.youtube.com/vi/DL603HhqcK8/0.jpg" alt="video dual boot Ubuntu"  width="600px">
+  </a>
+</div>
 
 
 
